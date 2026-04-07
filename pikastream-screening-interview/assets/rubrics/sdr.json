@@ -1,0 +1,103 @@
+{
+  "role": "Sales Development Representative",
+  "categories": [
+    {
+      "name": "Communication Skills",
+      "weight": 0.25,
+      "criteria": [
+        {
+          "name": "Clarity and Articulation",
+          "description": "Can the candidate explain ideas clearly and concisely?",
+          "scores": {
+            "1": "Poor - Rambling, unclear, hard to follow",
+            "3": "Adequate - Generally clear with some tangents",
+            "5": "Excellent - Crisp, structured, compelling delivery"
+          }
+        },
+        {
+          "name": "Active Listening",
+          "description": "Does the candidate listen to questions and respond directly?",
+          "scores": {
+            "1": "Poor - Misses the question, gives unrelated answers",
+            "3": "Adequate - Addresses the question with minor drift",
+            "5": "Excellent - Directly addresses every question with relevant detail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sales Aptitude",
+      "weight": 0.30,
+      "criteria": [
+        {
+          "name": "Objection Handling",
+          "description": "How does the candidate respond to pushback or challenges?",
+          "scores": {
+            "1": "Poor - Gets flustered or defensive",
+            "3": "Adequate - Acknowledges objections but lacks technique",
+            "5": "Excellent - Reframes objections confidently with structure"
+          }
+        },
+        {
+          "name": "Prospecting Knowledge",
+          "description": "Does the candidate understand outbound prospecting workflows?",
+          "scores": {
+            "1": "Poor - No understanding of outbound sales process",
+            "3": "Adequate - Basic understanding of cold outreach",
+            "5": "Excellent - Deep knowledge of multi-channel prospecting"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Motivation and Coachability",
+      "weight": 0.25,
+      "criteria": [
+        {
+          "name": "Drive",
+          "description": "Does the candidate show hunger and self-motivation?",
+          "scores": {
+            "1": "Poor - Passive, no visible ambition",
+            "3": "Adequate - Shows interest but limited intensity",
+            "5": "Excellent - High energy, clear goals, competitive drive"
+          }
+        },
+        {
+          "name": "Coachability",
+          "description": "Is the candidate open to feedback and learning?",
+          "scores": {
+            "1": "Poor - Defensive about weaknesses, dismisses feedback",
+            "3": "Adequate - Accepts feedback but doesn't elaborate",
+            "5": "Excellent - Gives specific examples of learning from feedback"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Role Fit",
+      "weight": 0.20,
+      "criteria": [
+        {
+          "name": "Availability and Logistics",
+          "description": "Can the candidate meet schedule and location requirements?",
+          "scores": {
+            "1": "Poor - Major conflicts or unclear availability",
+            "3": "Adequate - Available with minor flexibility needed",
+            "5": "Excellent - Fully available and flexible"
+          }
+        },
+        {
+          "name": "Culture Alignment",
+          "description": "Does the candidate seem aligned with a fast-paced startup environment?",
+          "scores": {
+            "1": "Poor - Prefers highly structured, slow-paced environments",
+            "3": "Adequate - Adaptable but untested in fast-paced settings",
+            "5": "Excellent - Thrives in ambiguity, startup-minded"
+          }
+        }
+      ]
+    }
+  ],
+  "pass_threshold": 3.0,
+  "advance_threshold": 4.0
+}

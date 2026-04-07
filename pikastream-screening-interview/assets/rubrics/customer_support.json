@@ -1,0 +1,103 @@
+{
+  "role": "Customer Support Representative",
+  "categories": [
+    {
+      "name": "Empathy and Tone",
+      "weight": 0.30,
+      "criteria": [
+        {
+          "name": "Empathy",
+          "description": "Does the candidate demonstrate genuine care for customer problems?",
+          "scores": {
+            "1": "Poor - Dismissive or indifferent to customer concerns",
+            "3": "Adequate - Shows concern but feels scripted",
+            "5": "Excellent - Naturally empathetic, makes people feel heard"
+          }
+        },
+        {
+          "name": "Professional Tone",
+          "description": "Can the candidate stay calm and positive under pressure?",
+          "scores": {
+            "1": "Poor - Gets frustrated or confrontational easily",
+            "3": "Adequate - Mostly calm but shows strain under pressure",
+            "5": "Excellent - Consistently warm and composed regardless of scenario"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "weight": 0.30,
+      "criteria": [
+        {
+          "name": "Troubleshooting Approach",
+          "description": "Does the candidate follow a logical approach to solving issues?",
+          "scores": {
+            "1": "Poor - No structured approach, guesses randomly",
+            "3": "Adequate - Has a basic process but misses edge cases",
+            "5": "Excellent - Systematic, asks clarifying questions, isolates root cause"
+          }
+        },
+        {
+          "name": "Resourcefulness",
+          "description": "Can the candidate find solutions when the answer is not obvious?",
+          "scores": {
+            "1": "Poor - Gives up or escalates immediately",
+            "3": "Adequate - Tries a few things before escalating",
+            "5": "Excellent - Creative problem solver, explores multiple paths"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Communication",
+      "weight": 0.25,
+      "criteria": [
+        {
+          "name": "Clarity",
+          "description": "Can the candidate explain technical or complex topics simply?",
+          "scores": {
+            "1": "Poor - Uses jargon, confuses the listener",
+            "3": "Adequate - Generally clear but occasionally overcomplicated",
+            "5": "Excellent - Breaks down complex issues into simple steps"
+          }
+        },
+        {
+          "name": "Written and Verbal Skills",
+          "description": "Is the candidate articulate in both spoken and written communication?",
+          "scores": {
+            "1": "Poor - Frequent grammar issues, hard to understand",
+            "3": "Adequate - Clear enough for most interactions",
+            "5": "Excellent - Polished, professional, and precise"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adaptability",
+      "weight": 0.15,
+      "criteria": [
+        {
+          "name": "Tool Familiarity",
+          "description": "Is the candidate comfortable learning new support tools and systems?",
+          "scores": {
+            "1": "Poor - Resistant to new tools or technology",
+            "3": "Adequate - Willing to learn but needs significant guidance",
+            "5": "Excellent - Quick learner, has used multiple support platforms"
+          }
+        },
+        {
+          "name": "Schedule Flexibility",
+          "description": "Can the candidate work varied shifts or handle volume spikes?",
+          "scores": {
+            "1": "Poor - Very rigid schedule requirements",
+            "3": "Adequate - Some flexibility with advance notice",
+            "5": "Excellent - Highly flexible and available"
+          }
+        }
+      ]
+    }
+  ],
+  "pass_threshold": 3.0,
+  "advance_threshold": 4.0
+}
